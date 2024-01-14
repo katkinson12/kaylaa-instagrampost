@@ -1,9 +1,41 @@
+body{
+  margin: 40px;
+  background-color: black;
+}
 .post{
-  text-align: flex;
-  color: black;
+  background-color: white;
+  text-align: justify;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
 }
-
-.post-img{
- 
-
+.post-header{
+  width: 20%;
+  display: flex;
+  padding: 10px;
 }
+.header-text {
+  padding-left: 8px;
+}
+.icon-header {
+  padding: 10px;
+  margin-left: 90%;
+}
+.s {
+  padding-top: 10px;
+}
+img {
+  width: 100%;
+  margin: 20%;
+}
+.post-icons {
+ width:100%;
+ margin: 10px;
+}
+.bookmark {
+  position:absolute;
+  left: 20px;
+}
+.post-body {
+  padding: 10px;
+} 
