@@ -16,6 +16,14 @@ body{
 }
 .header-text {
   padding-left: 8px;
+  display:flex;
+  flex-direction: column;
+}
+.header-text strong{
+  margin-bottom: 0;
+}
+.header-text:last-child{
+  margin-top: -17px;
 }
 .icon-header {
   margin-left:auto;
@@ -29,15 +37,22 @@ img {
   width: 100%;
   display: block;
 }
-.post-icons-left {
-  display: flex;
-  justify-content: flex-start;
-  margin: 10px;
+.post-icon{
+  display:flex;
+  justify-content: space-between;
+  margin:10px;
 }
-.post-icons-right{
+.post-icons-left, .post-icons-right{
   display: flex;
-  justify-content: flex-end;
-  margin: 10px;
+  align-items: center;
+}
+.post-icons-left{
+  display:flex;
+  justify-content: flex-start;
+  margin:3px;
+}
+.post-icons-left i:not(:last-child){
+  margin-right:10px;
 }
 .post-body {
   padding: 10px;
